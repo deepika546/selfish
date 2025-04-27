@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=मुझे खुद से मिलना है... ✨, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background: linear-gradient(to right, #fff0f5, #ffe4e1);
+            font-family: 'Dancing Script';
+            background-image: url('img3.jpg');
+            margin: 0;
+            padding: 0;
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('img3.jpg'); /* image ka naam wahi rakho */
+            background-size: cover;
+            background-position: center;
+            filter: blur(6px); /* adjust blur as needed */
+            z-index: -1;
+}
+        h2{
+            text-align: center;
+
+        }
+
+        .shayari-box{
+            color: #5a004f;
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 50px;
+            background: rgba(178, 156, 156, 0.878); /* light see-through */
+            padding: 30px;
+            margin: 40px auto;
+            width: 50%;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);                border: 2px solid rgba(255, 192, 203, 0.5);
+            box-shadow: 0 8px 16px rgba(142, 73, 83, 0.668);
+            font-size: 2.4rem;
+            color: #1706157c;               
+            line-height: 2.5rem;
+            display: block;
+            z-index: 1;
+            }
+        
+            .next-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: rgba(255, 192, 203, 0.6); /* light pink glass effect */
+  color: #4b2c4a;
+  font-family: 'Cursive', sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.next-button:hover {
+  background: rgba(255, 182, 193, 0.8);
+  color: #2b1d2a;
+  transform: scale(1.05);
+}
+
+audio{
+    border-radius: 25%;
+    text-align: right;
+    width: 25%;
+    color: #4b2c4a;
+    /* height: 100%; */
+}
+
+
+    </style>
+</head>
+<body>
+    
+   
+    <div class="shayari-box">
+        <h2>मुझे खुद से मिलना है... ✨</h2>
+        <p> 
+            "Main apne aap mein ek puri khushboo hoon,<br>
+             Na kisi ke aane se badhti hoon,<br>
+             Na jaane se kam hoti hoon...<br>
+             Bas jab khud se milti hoon,<br>
+             Toh har baar aur bhi mehakti hoon." 🌸
+        </p>
+        <p style="font-family: 'Cursive'; font-size: 16px; color: #5e4b56; text-align: right; margin-right: 30px;">
+            📖 पन्ना 1 - 14 अप्रैल 2025<br>
+              <!-- Music Player -->
+       <audio controls autoplay>
+        <source src="song1.mp3" type="audio/mp3">
+    </audio>
+
+          </p>
+          
+    </div>
+
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="page1.html" class="next-button">Next page✨</a>
+
+      </div>
+      
+
+
+</body>
+</html>

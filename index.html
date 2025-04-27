@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jab tu khud ke liye likhegi na...</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ffe6f0, #f3c4fb);
+      height: 100vh;
+      font-family: 'Great Vibes', cursive;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #7b3f7f;
+      text-align: center;
+      text-shadow: 2px 2px 8px #ffccff;
+      margin-bottom: 60px;
+      padding: 0 20px;
+    }
+
+    .start-btn {
+      padding: 15px 40px;
+      font-size: 1.5rem;
+      font-family: cursive;
+      border: none;
+      border-radius: 40px;
+      background-color: #ff69b4;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 0 15px #ffc0cb;
+      transition: all 0.3s ease;
+    }
+
+    .start-btn:hover {
+      background-color: #e75480;
+      box-shadow: 0 0 25px #ffb6c1;
+      transform: scale(1.05);
+    }
+
+    .hearts {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+      background-image: url('https://i.ibb.co/pvGMp7k/hearts-bg.gif');
+      background-size: cover;
+      opacity: 0.3;
+    }
+
+ 
+  </style>
+</head>
+<body>
+
+  <div class="hearts"></div>
+
+  <h1>Jab tu khud ke liye likhegi na...<br> toh har lafz tera apna sa lagega ✨</h1>
+
+  <button class="start-btn" onclick="enterDiary()">Enter My Diary</button>
+
+  <script>
+    function enterDiary() {
+      // Replace this with your actual diary page link
+      window.location.href = "diary.html";
+    }
+  </script>
+<br><br><br><br>
+   <!-- Music Player -->
+   <audio controls autoplay>
+    <source src="song.mp3" type="audio/mp3">
+   
+</audio>
+
+
+</body>
+</html>

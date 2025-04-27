@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background:#ffe6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: 0;
+    background-color: #c2b1bf;
+}
+
+.title-container {
+    background-color: #ffffffd0;
+    font-size: 1rem;
+    color:#7b3f7f;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #d37cbf;
+    background: #ebabab;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    display: inline-block;
+    opacity: 0;
+    word-spacing: 15px; /* This will add space between the words */
+    animation: fadeInTitle 5s forwards;
+}
+
+@keyframes fadeInTitle {
+    0% { opacity: 0; transform: translateY(30px); }
+    50% { opacity: 0.5; transform: translateY(0); }
+    100% { opacity: 1; transform: translateY(0); }
+}
